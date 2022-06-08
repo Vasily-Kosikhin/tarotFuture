@@ -1,0 +1,133 @@
+%imageSize {
+  width: 240px;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.app {
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+    .container {
+      width: 800px;
+      height: 800px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: red;
+      flex-direction: column;
+        .fTextContainer {
+          width: 600px;
+          height: 240px;
+            .fText {
+              font-size: 60px;
+            }
+        }
+    }
+}
+
+.c1 {
+  @extend %imageSize;
+  background-image: url(./img/1.jpg);
+  
+}
+.c2 {
+  @extend %imageSize;
+  background-image: url(./img/2.jpg);
+}
+.c3 {
+  @extend %imageSize;
+  background-image: url(./img/3.jpg);
+}
+.c4 {
+  @extend %imageSize;
+  background-image: url(./img/4.jpg);
+}
+.c5 {
+  @extend %imageSize;
+  background-image: url(./img/5.jpg);
+}
+.c6 {
+  @extend %imageSize;
+  background-image: url(./img/6.jpg);
+}
+.c7 {
+  @extend %imageSize;
+  background-image: url(./img/7.jpg);
+}
+.c8 {
+  @extend %imageSize;
+  background-image: url(./img/8.jpg);
+}
+.c9 {
+  @extend %imageSize;
+  background-image: url(./img/9.jpg);
+}
+.c10 {
+  @extend %imageSize;
+  background-image: url(./img/10.jpg);
+}
+.c11 {
+  @extend %imageSize;
+  background-image: url(./img/11.jpg);
+}
+.c12 {
+  @extend %imageSize;
+  background-image: url(./img/12.jpg);
+}
+.c13 {
+  @extend %imageSize;
+  background-image: url(./img/13.jpg);
+}
+.c14 {
+  @extend %imageSize;
+  background-image: url(./img/14.jpg);
+}
+.c14 {
+  @extend %imageSize;
+  background-image: url(./img/15.jpg);
+}
+.c15 {
+  @extend %imageSize;
+  background-image: url(./img/16.jpg);
+}
+.c15 {
+  @extend %imageSize;
+  background-image: url(./img/17.jpg);
+}
+.c16 {
+  @extend %imageSize;
+  background-image: url(./img/18.jpg);
+}
+.c17 {
+  @extend %imageSize;
+  background-image: url(./img/19.jpg);
+}
+.c18 {
+  @extend %imageSize;
+  background-image: url(./img/20.jpg);
+}
+.c19 {
+  @extend %imageSize;
+  background-image: url(./img/21.jpg);
+}
+.c20 {
+  @extend %imageSize;
+  background-image: url(./img/22.jpg);
+}
+.c21 {
+  @extend %imageSize;
+  background-image: url(./img/1.jpg);
+}
+.c22 {
+  @extend %imageSize;
+  background-image: url(./img/1.jpg);
+}
